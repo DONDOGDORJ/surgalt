@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>수화물정보</h1>
+    <form>
+        <table>
+            <tr>
+                <th><label for="packCount">패캐지수</label></th>
+                <td><input id="packCount"></td>
+            </tr>
+            <tr>
+                <th><label>패키지가 일치함니까?</label></th>
+                <td><label><input type="radio">예</label>
+                <label><input type="radio">아니요</label></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="text">
+                <select><option value="kg">킬로스렘
+                <option value="g">그렘</option></select></td>
+            </tr>
+            <tr>
+                <th>패키지별 무게</th>
+                <td><label><input type="checkbox">고객번호를 사용하여 전송</label></td>
+            </tr>
+            <tr>
+                <th><label for="픽업/방문접수"></label></th>
+                <td>
+                    <select id="">
+                        <option value="방문">방문</option>
+                        <option value="픽업">픽업</option>
+
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <th><label for="date">방송날짜</Label></th>
+                <td>
+                    <input type ="date" id="date">
+
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                <input type="submit" value="빠른견적받기">
+                <button>상세 견적받기</button></th>
+                
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
